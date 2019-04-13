@@ -125,3 +125,4 @@ New-AzureRmVM `
   -VM $VirtualMachine
   
   
+# Install Docker on VM
