@@ -20,3 +20,6 @@ Set up Jenkins Container on VM
 
 Remove Resource Group (only if needed)
 
+https://www.terraform.io/docs/providers/azurerm/d/kubernetes_cluster.html
+
+https://www.terraform.io/docs/providers/index.html
