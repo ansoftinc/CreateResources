@@ -1,6 +1,7 @@
 # Create a new Resource Group
 $ResourceGroupName = "devopsrg"
 $Location = "eastus"  
+$RemoveRG = "False"
 
 New-AzureRmResourceGroup -Name $ResourceGroupName -Location $Location
  
@@ -124,5 +125,9 @@ New-AzureRmVM `
   -Location $Location `
   -VM $VirtualMachine
   
-  
-# Install Docker on VM
+
+# Remove Resource Group
+if ($RemoveRG == "True") {
+  Remove-AzureRmResourceGroup `
+    -Name $ResourceGroupName
+}

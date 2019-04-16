@@ -14,6 +14,9 @@ Define a credential object to store the username and password for the virtual ma
 Create the virtual machine configuration object
 Sets the operating system disk properties on a virtual machine.
 Create the virtual machine.
-  
+
 Install Docker on VM
 Set up Jenkins Container on VM
+
+Remove Resource Group (only if needed)
+
